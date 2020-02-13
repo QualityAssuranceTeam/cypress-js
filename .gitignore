@@ -1,4 +1,4 @@
 node_modules
 ghost-cms
-videos
-screenshots
+cypress/videos
+cypress/screenshots
