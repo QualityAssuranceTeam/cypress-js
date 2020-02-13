@@ -1,0 +1,4 @@
+node_modules
+ghost-cms
+cypress/videos
+cypress/screenshots
