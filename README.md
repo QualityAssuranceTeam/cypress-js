@@ -1,6 +1,8 @@
 # cypress-js
 
 ```
-nvm use v10.18.1
-npm install ghost-cli@latest -g && ghost install local --dir ghost-cms
+nvm use v12.10.0
+npm i
+npm run cms:install
+npm test
 ```
