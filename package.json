@@ -7,7 +7,7 @@
     "cms:install": "npm install ghost-cli@latest -g && ghost install local --dir ghost-cms",
     "cms:start": "ghost start --dir ghost-cms",
     "cms:stop": "ghost stop --dir ghost-cms",
-    "cms:uninstall": "npm uninstall ghost-cli@latest -g && rm -rf ghost-cms",
+    "cms:uninstall": "yarn cms:stop && npm uninstall ghost-cli@latest -g && rm -rf ghost-cms",
     "pretest": "yarn cms:start",
     "test": "cypress run",
     "test:chrome": "yarn test --browser chrome",
