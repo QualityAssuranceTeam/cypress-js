@@ -9,7 +9,10 @@
     "cms:stop": "ghost stop --dir ghost-cms",
     "cms:uninstall": "npm run cms:stop && npm uninstall ghost-cli@latest -g && rm -rf ghost-cms",
     "pretest": "npm run cms:start",
-    "test": "$(npm bin)/cypress run --headed"
+    "test": "$(npm bin)/cypress run",
+    "test:chrome": "$(npm bin)/cypress run --browser chrome",
+    "test:firefox": "$(npm bin)/cypress run --browser firefox",
+    "test:edge": "$(npm bin)/cypress run --browser edge"
   },
   "repository": {
     "type": "git",
